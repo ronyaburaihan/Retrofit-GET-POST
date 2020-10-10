@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activities.MainActivity">
+
+    <EditText
+        android:id="@+id/ed_user_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/enter_user_id"
+        android:inputType="text"
+        tools:ignore="Autofill,TextFields" />
+
+    <EditText
+        android:id="@+id/ed_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/login"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_jokes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/user_id_jokes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="@string/enter_user_id"
+        android:inputType="text"
+        tools:ignore="Autofill" />
+
+    <Button
+        android:id="@+id/btn_get_jokes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/get_jokes"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>
